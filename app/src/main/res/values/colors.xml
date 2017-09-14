@@ -1,0 +1,38 @@
+<resources>
+
+    <color name="colorPrimary">#689f38</color>
+    <color name="colorPrimaryDark">#558b2f</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <item name="menured" type="color">#CF1502</item>
+    <item name="appRed" type="color">#FF0000</item>
+    <item name="white" type="color">#ffffff</item>
+    <item name="black" type="color">#000000</item>
+    <item name="orange" type="color">#FDCAA2</item>
+    <item name="filter_tabs_frag" type="color">#e5e5e5</item>
+    <item name="text_green" id="text_green" type="color">#6dc066</item>
+    <item name="labelColor" type="color">#FFF</item>
+    <item name="tab_unselected" type="color">#eeeeee</item>
+    <item name="light_grey" type="color">#f5f5f5</item>
+    <item name="verify_number" type="color">#445A63</item>
+    <item name="recieve_otp" type="color">#56857B</item>
+    <item name="darker_gray" type="color">#171717</item>
+    <item name="blue" type="color">#448aff</item>
+    <item name="gray_background" type="color">#eeeeee</item>
+    <item name="search_hint_color" type="color">#8AFFFFFF</item>
+    <item name="rating_selected" type="color">#449B3A</item>
+    <item name="rating_unselected" type="color">#4D000000</item>
+    <item name="camera_color" type="color">#eb4d4d4d</item>
+
+
+    <item name="closed" type="color">#FF0000</item>
+    <item name="green" type="color">#43a047</item>
+    <item name="grey_text" type="color">#555555</item>
+
+
+    <color name="sliderprofiletextcolor">#dbd7d3</color>
+    <color name="tabunselected">#7B716B</color>
+    <color name="outlet_name_back">#AA000000</color>
+    <color name="indicator_unselected">#4D000000</color>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+</resources>

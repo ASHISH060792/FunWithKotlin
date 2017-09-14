@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Fun With Kotlin</string>
+    <string name="menu_add">Add</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="enter_number">Enter Number</string>
+
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="auth_token">Auth-Token</string>
+    <string name="logout">Logout</string>
+    <string name="search">Search</string>
+    <string name="range_checker">Range Checker</string>
+    <string name="github_user_search">Github User Search</string>
+    <string name="show_notification">Show Notification</string>
+    <string name="channel_name">Check Notification</string>
+    <string name="channel_description">Test Notifiication Channel</string>
+    <string-array name="query_suggestions">
+        <item>Android</item>
+        <item>iOS</item>
+        <item>SCALA</item>
+        <item>Ruby</item>
+        <item>JavaScript</item>
+    </string-array>
+</resources>

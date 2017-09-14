@@ -20,5 +20,16 @@
         android:layout_height="wrap_content"
         android:id="@+id/showNotification"
         android:text="@string/show_notification"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/startService"
+        android:text="@string/start_service"
+        android:visibility="visible"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/operatorOverloading"
+        android:text="@string/operator_overlaoading"/>
 
 </LinearLayout>

@@ -25,6 +25,8 @@
     <string name="show_notification">Show Notification</string>
     <string name="channel_name">Check Notification</string>
     <string name="channel_description">Test Notifiication Channel</string>
+    <string name="start_service" >Start Service</string>
+    <string name="operator_overlaoading">Operator OverLoading</string>
     <string-array name="query_suggestions">
         <item>Android</item>
         <item>iOS</item>

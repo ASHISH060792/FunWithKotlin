@@ -31,5 +31,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/operatorOverloading"
         android:text="@string/operator_overlaoading"/>
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/androidThings"
+        android:text="@string/android_things"/>
 </LinearLayout>

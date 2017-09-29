@@ -12,6 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/LoginTheme">
+        <uses-library android:name="com.google.android.things"/>
+
         <activity android:name=".ui.activity.sampleActivities.MainActivity" />
         <activity android:name=".ui.activity.github.GitHubSearchUserActivity"
             android:theme="@style/AppTheme"/>
@@ -24,6 +26,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.activity.sampleActivities.OperatorOverloading" />
+        <activity android:name=".ui.activity.androidThings.AndroidThingsActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
 import com.ashish060792.funwithkotlin.R
+import com.ashish060792.funwithkotlin.ui.activity.androidThings.AndroidThingsActivity
 import com.ashish060792.funwithkotlin.ui.activity.github.GitHubSearchUserActivity
 import com.ashish060792.funwithkotlin.ui.activity.notification.ShowNotificationService
 import com.ashish060792.funwithkotlin.utils.genrateNotification
@@ -23,6 +24,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         showNotification.setOnClickListener(this)
         startService.setOnClickListener(this)
         operatorOverloading.setOnClickListener(this)
+        androidThings.setOnClickListener(this)
         service = Intent(this, ShowNotificationService::class.java)
     }
 
@@ -33,6 +35,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.showNotification -> genrateNotification(this@MainActivity, "Notification Title", "Notification Text", "Subtext", 56)
             R.id.startService -> startService(service);
             R.id.operatorOverloading -> startActivity(Intent(this@MainActivity, OperatorOverloading::class.java))
+            R.id.androidThings -> startActivity(Intent(this@MainActivity, AndroidThingsActivity::class.java))
+
 
         }
     }
